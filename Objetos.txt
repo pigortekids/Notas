@@ -1,0 +1,8 @@
+nome da classe
+--------------
+atributos          --> caracteristicas
+--------------
+métodos            --> oque faz
+
+programa é: objetos comunicando-se entre si
+
