@@ -1,0 +1,25 @@
+botão direito na pasta "Git Bash Here" --> para começar a mexer no git pela pasta desejada
+
+git config --global user.name "YOUR NAME"           --> configurações
+git config --global user.email "YOUR EMAIL ADDRESS" --> de inicio
+
+git status
+
+git clone <endereço> --> clonar o repositorio do github
+shift + insert = ctrl + c do git
+git push origin <branch> (normalmente master) --> para enviar os arquivos ao github
+git pull --> para puxar os arquivos do github
+git remote update && git status --> para ver se seus arquivos estão atualizados
+
+git add * ou git add nome --> "deixar verde"
+git commit -m "mensagem"  --> para commitar
+
+:wq
+
+seta para cima ou para baixo para antigos comandos
+
+git checkout -b <nome> --> para criar um branch
+git checkout <nome> --> para mudar de branch
+git branch --> para ver os branchs locais
+
+git log --> mostra os commits antigos
