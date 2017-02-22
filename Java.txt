@@ -1,1 +1,10 @@
 JDK 8u111 with NetBeans 8.2
+
+Camel Case:
+	variavelQualquer
+	ClasseQualquer
+	.
+	.
+	.
+
+case sensitive
