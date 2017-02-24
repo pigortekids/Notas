@@ -15,7 +15,7 @@ git add * ou git add nome --> "deixar verde"
 git add -u --> para deletar
 git commit -m "mensagem"  --> para commitar
 
-:wq
+:wq --> para sair do negocio de anotações bugado
 
 seta para cima ou para baixo para antigos comandos
 
