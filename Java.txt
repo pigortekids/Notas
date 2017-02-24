@@ -1,5 +1,14 @@
 JDK 8u111 with NetBeans 8.2
 
+Objeto
+nome da classe
+--------------
+atributos          --> caracteristicas
+--------------
+métodos            --> oque faz
+
+programa é: objetos comunicando-se entre si
+
 Camel Case:
 	variavelQualquer
 	ClasseQualquer
@@ -8,3 +17,12 @@ Camel Case:
 	.
 
 case sensitive
+
+boolean --> Boolean
+byte --> Byte
+short --> Short
+int --> Integer 
+long --> Long
+float --> Float
+double --> Double
+char --> Character
