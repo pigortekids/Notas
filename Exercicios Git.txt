@@ -1,4 +1,0 @@
-git log    --> serve para ver o histórico de comandos
-git reset  --> volta um commit
-git ignore --> para ignorar arquivos ainda não adicionados ao diretório
-para 
