@@ -1,5 +1,7 @@
 JDK 8u111 with NetBeans 8.2
 
+confirurar o JAVA_HOME e o Path
+
 criar arquivo de texto (NotePad++) e salvar como "Nome.java"
 o nome do programa tem que ser o mesmo nome da classe criada
 
