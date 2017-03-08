@@ -1,87 +1,169 @@
 AULA 1
 
+
 N --> conjunto dos numeros naturais  --> todos numeros inteiros positivos incluindo o 0
+
 Z --> conjunto dos numeros inteiros  --> todos os numeros inteiros (positivos e negativos)
+
 Q --> conjunto dos numeros racionais --> todos os inteiros e frações
+
 R --> conjunto dos numeros reais     --> todos os numeros, nao incluindo complexos
+
 C --> conjunto dos numeros complexos --> todos os numeros, incluindo complexos
 
+
+
 predicado ( P(x) ) --> função para definir se x esta presente em um conjunto
+
 quantificador universal (A de cabeça para baixo)   --> "para todo", se funcionar em todos
+
 quantificador existencial (E ao contrario)         --> "existe", se funcionar em 1 ja serve
 
+
+
 "e"  --> ^
+
 "ou" --> v
+
 "não"--> ¬
+
 implicação ou condicional --> ->
+
 bicondicional --> <->
 
+
+
 C= --> subconjunto   --> esta contido em, e pode ser igual
+
 =C --> superconjunto --> contem, e pode ser igual
+
 C  --> subconjunto proprio   --> esta contido em, e nao pode ser igual
-C  --> superconjunto proprio --> contem, e nao pode ser igual
+
+C ao contrario  --> superconjunto proprio --> contem, e nao pode ser igual
+
+
 
 conjunto potencia --> A = {1, 2} seu conjunto potencia é = {conjunto sem elementos, {1}, {2}, {1,2}}
 
+
+
 cardialidade --> tamanho do conjunto --> "modulo de um vetor"
 
+
+
 sendo A={1, 2, 3, 4}, B={3, 4, 5, 6} :
+
 intersecção --> U de cabeça para baixo --> a intersecção={3, 4}
+
 união --> U --> a união={1, 2, 3, 4, 5, 6}
+
 diferença --> - ou \ -->  a diferença={1, 2} (A-B diferente de B-A)
+
 diferença simetrica --> + com circulo em volta --> a diferença simetrica={1, 2, 5, 6}
 
+
+
 complemento --> nome do conjunto com barra em cima --> todos os elementos do universo, menos os de A
+
 conjuntos disjuntos --> quando a intersecção de dois conjuntos é um conjunto vazio
+
 conjuntos mutuamente disjuntos --> pesquisar google
 
+
 produto cartesiano --> X --> sendo (a,b)={{a},{a,b}} e A={a,b} e B={c,d}
+	
 	o produto cartesiano de A com B ={(a,c),(a,d),(b,c),(b,d)}
+
 potencia de um conjunto --> é o produto cartesiano dele com ele mesmo
 
+
+
 cardialidade do produto cartesiano --> sendo o tamanho de A=m, e o tamanho de B=n, o tamanho de AXB=m*n
+
 cardialidade de potencia de conjunto --> sendo o tamanho de A=m, o tamanho de A^2 sera m^2
+
+
+
+
+
 
 
 
 AULA 2
 
+
+
 Uma relação binária de A para B é um subconjunto de AxB
+
 A={a,b} B={c,d} AxB={(a,c),(a,d),(b,c),(b,d)} e a relação R, pode ser por exemplo = {(a,d),{b,d)}]
+
 dominio de R é o conjunto = {a,b} --> que são os x
+
 contradominio de R é o conjunto = {d} --> que são os y
 
+
+
 relação inversa de R = R^(-1) = {(y,x)|(x,y) pertencente a R}
+
 relação sobre A --> se A=B entãa a relação é denominada relação sobre A
+
 relação identidade --> Ia={(x,x)|x pertence a A} --> {(a,a),(b,b)}
+
 numero maximo de relações binarias sobre A é 2^n^2
 
+
+
 representação por matriz -->   c  d  --> as linhas representam os dominios
+
 			     a 0  1  --> as colunas representam os contradominios
+
 			     b 0  1
+
 representação por dígrafo -->   a-->d   c
+
 				b---^
 
+
+
 relação reflexiva --> tem todas os subconjuntos (x,x), onde x vai para ele mesmo
+
 relação antirreflexiva --> se nem todos os subconjuntos são (x,x), onde x vai para ele mesmo
+
 relação simétrica --> se todos os casos de (x,y) tem um (y,x), onde x vai de volta de y
+
 relação antissimétrica --> se nem todos os casos de (x,y) tem um (y,x), onde x vai e volta de y
+
 relação transitiva --> se a mais de 1 forma de chegar de um ponto a outro(2 caminhos distintos)
 
+
+
 composição de relações --> R o S --> R^0 = Ia, R^1 = R, R^2 = R o R, R^3 = R o R o R ...
+
 	EX: R={(1,1),(1,2),(2,3),(3,3)}, R^2={(1,2),(1,3),(2,3)}, R^3={(1,3)}, R^4 = conjunto vazio
+
 fecho transitivo --> R^+ = a união de todos os Rs^n começando em n=1
+
 fecho transitivo reflexivo --> R^* = a união de todos os Rs^n começando em n=0
+
 no feicho transitivo você consegue definir quantas viagens é necessario fazer para chegar de um x a
+
 	um certo y, logo, se em R^1 tiver um subconjunto (x,y) significa que em apenas uma "viagem"
+
 	é possivel chegar em y a partir de x, então se em R^3 tiver um subconjunto (x,y) significa
+
 	que em 3 "viagens" é possivel chegar em y a partir de x.
 
-ordem parcial fraca --> uma relação binária sobre um conjunto S que é reflexiva, antissimétrica e 
+
+ordem parcial fraca --> uma relação binária sobre um conjunto S que é reflexiva, antissimétrica e
+ 
 	transitiva é denominada ordem parcial de S
+
 ordem parcial estrita --> || que é antireflexiva, antissimétrica e transitiva ||
+
 um conjunto parcialmente ordenado por uma relação p é denominado de conjunto parcialmente ordenado
+
 	ou cpo e é indicado pelo par (S,p) ou (S, <= curvado), onde <= curvado por ser dito como
+
 	"menor ou igual à", "é subconjunto de", "divide por" ... PESQUISAR SOBRE DEPOIS
 
 
@@ -94,3 +176,6 @@ um conjunto parcialmente ordenado por uma relação p é denominado de conjunto par
 
 
 
+
+
+relações de equivalência --> são relações que são simétricas, reflexivas e transitivas ao mesmo tempo
