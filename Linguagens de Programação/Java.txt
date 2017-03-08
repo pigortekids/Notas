@@ -2,8 +2,14 @@ JDK 8u111 with NetBeans 8.2
 
 confirurar o JAVA_HOME e o Path
 
-criar arquivo de texto (NotePad++) e salvar como "Nome.java"
+criar arquivo de texto (NetBeans) e salvar como "Nome.java"
 o nome do programa tem que ser o mesmo nome da classe criada
+
+NetBeans:
+	help --> ctrl+space
+	se tiver dando problema --> martelo+vasoura(shift+F11)
+	para rodar --> F6
+	para alterar o tamanho da letra --> Alt+roda do mouse
 
 Objeto
 nome da classe
@@ -33,3 +39,5 @@ double --> Double
 char --> Character
 
 criação de classe: "public class Nome{...}"
+criação de objeto: "Nome x = new Nome();"
+usar referencia com "this."
