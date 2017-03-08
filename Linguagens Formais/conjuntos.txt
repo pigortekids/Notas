@@ -176,3 +176,6 @@ um conjunto parcialmente ordenado por uma relação p é denominado de conjunto par
 
 
 
+
+
+relações de equivalência --> são relações que são simétricas, reflexivas e transitivas ao mesmo tempo
