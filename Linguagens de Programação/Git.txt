@@ -1,7 +1,7 @@
 botão direito na pasta "Git Bash Here" --> para começar a mexer no git pela pasta desejada
 
 git config --global user.name "YOUR NAME"           --> configurações
-git config --global user.email "YOUR EMAIL ADDRESS" --> de inicio
+git config --global user.email <YOUR EMAIL ADDRESS> --> de inicio
 
 git status
 
