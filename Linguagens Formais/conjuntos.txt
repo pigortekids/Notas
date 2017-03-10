@@ -167,15 +167,27 @@ um conjunto parcialmente ordenado por uma relação p é denominado de conjunto par
 	"menor ou igual à", "é subconjunto de", "divide por" ... PESQUISAR SOBRE DEPOIS
 
 
-
-
-
-
-
-
-
-
-
-
-
 relações de equivalência --> são relações que são simétricas, reflexivas e transitivas ao mesmo tempo
+
+partição --> conjuntos que não tem intersecção dentro de um conjunto
+
+
+
+
+
+AULA 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
