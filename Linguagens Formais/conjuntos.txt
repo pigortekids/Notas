@@ -94,6 +94,8 @@ partição --> conjuntos que não tem intersecção dentro de um conjunto
 
 AULA 3
 
+LOGICA FORMAL:
+
 and --> v de cabeça para baixo
 ou --> v
 não --> ¬
@@ -106,3 +108,8 @@ tautologia --> quando uma fbf é sempre verdade
 contradição --> quando uma fbf é sempre falsa
 equivalencia logica --> seta para os dois lados com dois riscos no meio --> quando duas fbfs são
 	equivalentes em relação a outra
+
+LOGICA PSOPOSICIONAL:
+
+utiliza a logica formal para descobrir como obter conclusões logicas a partir de sentenças existentes,
+	basicamente junta sentenças (fbfs) e cria sentenças sobre isso.
