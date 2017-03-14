@@ -38,6 +38,9 @@ float --> Float
 double --> Double
 char --> Character
 
+System.out.println(" ");  ou  System.out.print(" "); para nao pular linha depois do print
 criação de classe: "public class Nome{...}"
 criação de objeto: "Nome x = new Nome();"
-usar referencia com "this."
+criação de objeto dentro de objeto: "x.atributo = new Nome2();"
+usar referencia com "this." quando for criar uma função de classe
+
