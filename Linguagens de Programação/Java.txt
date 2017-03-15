@@ -44,3 +44,12 @@ criação de objeto: "Nome x = new Nome();"
 criação de objeto dentro de objeto: "x.atributo = new Nome2();"
 usar referencia com "this." quando for criar uma função de classe
 
+pode ser usado em variavel, metodos e classes:
+public --> todos conseguem acessar
+private --> apenas a classe acessa
+
+para alterar classe "setAtributo"
+para pegar o valor  "getAtributo"
+default --> apenas as pessoas do package onde está acessam
+
+construtor
