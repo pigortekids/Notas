@@ -127,3 +127,4 @@ escopo --> oque o quantificador envolve
 variavel livre --> na analise a se interpretar a variavel não está envolvida em um quantificador
 	nem a um escopo
 da para traduzir frases da lingua portuguesa para predicados
+tem outras regras de derivação
