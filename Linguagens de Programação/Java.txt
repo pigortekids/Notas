@@ -47,9 +47,16 @@ usar referencia com "this." quando for criar uma função de classe
 pode ser usado em variavel, metodos e classes:
 public --> todos conseguem acessar
 private --> apenas a classe acessa
+default --> apenas as pessoas do package onde está acessam
+protected...
 
 para alterar classe "setAtributo"
 para pegar o valor  "getAtributo"
-default --> apenas as pessoas do package onde está acessam
 
-construtor
+construtor:
+	logo que a classe é formada vai ser rodado o método do contrutor que tem o proprio nome
+	da classe e está dentro dela. Normalmente é para setar os valores da sua classe. Declarar
+	uma outra classe como atributo, criar o "new" dela dentro do contrutor.
+
+criando uma variavel "static", ela é uma variavel "global dentro do objeto", para criar coloca
+	"private static int nome", e para pegar o valor "Classe.nome"
