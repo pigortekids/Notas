@@ -1,0 +1,8 @@
+Processador Intel Core i5 7600k (Cache 6MB, 3.8GHz, 4 nucleos) --> R$989,90
+Placa de Video VGA EVGA GeForce GTX 1070 (8GB, DDR5) --> R$1699,90
+Placa Mãe ASUS B250 (4X DDR4, LGA 1151) --> R$474,90
+Fonte Corsair CX-600W --> R$305,90
+2 Memória Kingston HyperX FURY 4GB (2133MHz, DDR4) --> 2 x R$ 189,90
+Gabinete Corsair Carbide Spec-01 Red LED Mid Tower --> R$ 312,90
+HD Interno Western Digital Blue 1TB SATA (7200rpm, 64MB) --> R$242,90
+total --> R$4406,20
