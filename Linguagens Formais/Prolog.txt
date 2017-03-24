@@ -1,0 +1,13 @@
+http://www.swi-prolog.org/download/stable
+eclipse	------> Prolog Console / perspectiva Prolog
+		file/new project/general/project/colocar nome
+		botão direito/novo arquivo com extensão ".pl"
+
+constantes em minusculo
+variavel em maisculo
+"e" --> ","
+se a então b --> ":-"
+
+terminar com "." as linhas
+declarar com "nome(coisa, coisa)"
+perguntar o total de coisas "nome(X)" + enter + ; + ; + ; + ... ate o false

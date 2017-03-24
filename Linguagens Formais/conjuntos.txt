@@ -109,7 +109,22 @@ contradição --> quando uma fbf é sempre falsa
 equivalencia logica --> seta para os dois lados com dois riscos no meio --> quando duas fbfs são
 	equivalentes em relação a outra
 
+
 LOGICA PSOPOSICIONAL:
 
 utiliza a logica formal para descobrir como obter conclusões logicas a partir de sentenças existentes,
 	basicamente junta sentenças (fbfs) e cria sentenças sobre isso.
+ver slides para estudar as regras de derivação
+
+
+LOGICA DE PREDICADOS:
+
+interpretar uma expressão com predicados seria testar para uma expressão os casos e conferir se será
+	ou não verdade
+quantificador universal --> A de cabeiça pra baixo --> para todo
+quantificador existencial --> E ao contrario --> pelo menos um
+escopo --> oque o quantificador envolve
+variavel livre --> na analise a se interpretar a variavel não está envolvida em um quantificador
+	nem a um escopo
+da para traduzir frases da lingua portuguesa para predicados
+tem outras regras de derivação
