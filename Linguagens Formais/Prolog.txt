@@ -7,7 +7,12 @@ constantes em minusculo
 variavel em maisculo
 "e" --> ","
 se a então b --> ":-"
+diferente --> "\="
 
 terminar com "." as linhas
 declarar com "nome(coisa, coisa)"
-perguntar o total de coisas "nome(X)" + enter + ; + ; + ; + ... ate o false
+se houver outras respostas, em vez de terminar com ".", finalizar com ";" ate aparecer "false"
+para saber como funciona os testes do que você pede usar o "trace,oqueQuerTestar"
+
+estilo de pergunta: "come(_,batata)" --> alguem come batata?
+		    "come(X,batata)" --> quem come batata?
