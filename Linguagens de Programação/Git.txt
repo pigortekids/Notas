@@ -13,8 +13,10 @@ git remote update && git status --> para ver se seus arquivos estão atualizados
 
 git add * ou git add nome --> "deixar verde"
 git add -u --> para deletar ou "git rm "arquivo.txt"
-git reset --> volta os ultimos add/rm
 git commit -m "mensagem"  --> para commitar
+
+git reset --> verifica as coisas do ultimo commit e pode retornar arquivos
+git reset --hard <endereço do commit> --> para retornar tudo do ultimo commit
 
 :wq --> para sair do negocio de anotações bugado
 

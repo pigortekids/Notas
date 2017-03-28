@@ -38,6 +38,11 @@ float --> Float
 double --> Double
 char --> Character
 
+switch case da para usar varios cases em 1 coisa só. exemplo:
+	case 1:
+	case 2:
+	case 3: faz algo; break; --> os cases 1, 2 e 3 vão rodar a mesma coisa
+
 System.out.println(" ");  ou  System.out.print(" "); para nao pular linha depois do print
 criação de classe: "public class Nome{...}"
 criação de objeto: "Nome x = new Nome();"
