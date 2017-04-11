@@ -53,7 +53,7 @@ pode ser usado em variavel, metodos e classes:
 public --> todos conseguem acessar
 private --> apenas a classe acessa
 default --> apenas as pessoas do package onde está acessam
-protected...
+protected --> apenas as as classes de heran�a podem usar
 
 para alterar classe "setAtributo"
 para pegar o valor  "getAtributo"
@@ -68,3 +68,5 @@ criando uma variavel "static", ela é uma variavel "global dentro do objeto", pa
 para pegar o valor dessa variavel static criada, crie uma função no objeto que tambem seja static
 	e que retorne o valor da variavel, para quando for pegar o valor dela na main, poder usar
 	"Classe.nomeMetodoStatic();" em vez de chamar por um dos objetos da classe (c1.nomeMe...).
+
+Heran�a --> public class Gerente extends Funcionario {
