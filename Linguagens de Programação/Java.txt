@@ -52,8 +52,8 @@ usar referencia com "this." quando for criar uma funÃ§Ã£o de classe
 pode ser usado em variavel, metodos e classes:
 public --> todos conseguem acessar
 private --> apenas a classe acessa
-default --> apenas as pessoas do package onde estÃ¡ acessam
-protected --> apenas as as classes de herança podem usar
+default --> apenas as pessoas do package onde esta acessam
+protected --> apenas a propria classe e as classes de herança podem usar
 
 para alterar classe "setAtributo"
 para pegar o valor  "getAtributo"
@@ -63,10 +63,15 @@ construtor:
 	da classe e estÃ¡ dentro dela. Normalmente Ã© para setar os valores da sua classe. Declarar
 	uma outra classe como atributo, criar o "new" dela dentro do contrutor.
 
-criando uma variavel "static", ela Ã© uma variavel "global dentro do objeto", para criar coloca
+criando uma variavel "static", ela Ã© uma variavel "global dentro da classe", para criar coloca
 	"private static int nome".
-para pegar o valor dessa variavel static criada, crie uma funÃ§Ã£o no objeto que tambem seja static
-	e que retorne o valor da variavel, para quando for pegar o valor dela na main, poder usar
-	"Classe.nomeMetodoStatic();" em vez de chamar por um dos objetos da classe (c1.nomeMe...).
+	para pegar o valor dessa variavel static criada, crie uma funÃ§Ã£o no objeto que tambem
+		seja static e que retorne o valor da variavel, para quando for pegar o 
+		valor dela na main, poder usar "Classe.nomeMetodoStatic = ..." 
+		em vez de chamar por um dos objetos da classe (c1.nomeMe...).
 
-Herança --> public class Gerente extends Funcionario {
+Herança:
+	public class Gerente extends Funcionario {
+	o construtor da superclasse é sempre executado para as subclasses
+	se quiser adicionar um construtor nas subclasses, passar todos os parametros do conrutor
+		da superclasse, e usar a função "super" passando esses parametros
