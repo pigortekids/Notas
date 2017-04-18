@@ -11,6 +11,16 @@ NetBeans:
 	para rodar --> F6
 	para alterar o tamanho da letra --> Alt+roda do mouse
 
+SCANF:
+import java.util.Scanner;
+	Scanner scanner = new Scanner(System.in);  
+	//Para jogar em um inteiro
+	int i = scanner.nextInt();
+        //Para uma String  
+        String s = scanner.nextLine();  
+        //Para um double e assim por diante.
+        double d = scanner.nextDouble();
+
 Objeto
 nome da classe
 --------------
@@ -75,3 +85,6 @@ Herança:
 	o construtor da superclasse é sempre executado para as subclasses
 	se quiser adicionar um construtor nas subclasses, passar todos os parametros do conrutor
 		da superclasse, e usar a função "super" passando esses parametros
+
+Polimorfismo: pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
+	da super classe, usar "final"
