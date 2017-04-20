@@ -1,0 +1,25 @@
+     Assembly listing for: exemplo1.mas
+                Assembled: Thu Apr 20 11:10:29 BRT 2017
+
+         |         ORG 100           
+100 1105 |         LOAD X            
+101 3106 |         ADD Y             
+102 2107 |         STORE Z           
+103 6000 |         OUTPUT            
+104 7000 |         HALT              
+105 0080 |  X      DEC 128           
+106 0001 |  Y      DEC 1             
+107 0000 |  Z      HEX 0000          
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          X      |   105   | 100
+          Y      |   106   | 101
+          Z      |   107   | 102
+         --------------------------------------------------
+
+

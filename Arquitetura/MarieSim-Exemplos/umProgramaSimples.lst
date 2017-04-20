@@ -1,0 +1,17 @@
+     Assembly listing for: umProgramaSimples.mas
+                Assembled: Thu Apr 20 10:43:20 BRT 2017
+
+000 1104 |         LOAD 104          
+001 3105 |         ADD 105           
+002 2106 |         STORE 106         
+003 7000 |         HALT              
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+
