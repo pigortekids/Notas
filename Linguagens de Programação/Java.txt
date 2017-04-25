@@ -17,7 +17,7 @@ import java.util.Scanner;
 	//Para jogar em um inteiro
 	int i = scanner.nextInt();
         //Para uma String  
-        String s = scanner.nextLine();  
+        String s = scanner.nextLine(); armazena toda a linha, e o next(); armazena ate o " "
         //Para um double e assim por diante.
         double d = scanner.nextDouble();
 
@@ -47,6 +47,9 @@ long --> Long
 float --> Float
 double --> Double
 char --> Character
+
+array--> declaração--> int[] array; array = new int[10]; chamada--> array[5];
+para fazer uma array de um objeto --> Conta[] array; array = new Conta[10]; array[0] = new Conta();
 
 switch case da para usar varios cases em 1 coisa só. exemplo:
 	case 1:
