@@ -1,0 +1,14 @@
+// Um exemplo usando rótulos – Soma de 2 números - Pagina 22 material ECM245 - 8
+
+	Load 	X
+	Add 	Y
+	Store 	Z
+	output	Z
+	Halt
+X, 	Hex 	0023
+Y, 	Hex	FFE9
+Z, 	Hex	0000
+
+// X, 	Dec 	35
+// Y, 	Dec	-23
+// Z, 	Hex	0000

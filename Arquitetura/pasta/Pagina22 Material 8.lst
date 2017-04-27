@@ -1,0 +1,30 @@
+     Assembly listing for: Pagina22 Material 8.mas
+                Assembled: Thu Apr 27 10:40:07 BRT 2017
+
+         |                          // Um exemplo usando rótulos – Soma de 2 números - Pagina 22 material ECM245 - 8
+         |                          
+000 1005 |         LOAD X            
+001 3006 |         ADD Y             
+002 2007 |         STORE Z           
+003 6000 |         OUTPUT            
+004 7000 |         HALT              
+005 0023 |  X      HEX 0023          
+006 FFE9 |  Y      HEX FFE9          
+007 0000 |  Z      HEX 0000          
+         |                          
+         |                          // X, 	Dec 	35
+         |                          // Y, 	Dec	-23
+         |                          // Z, 	Hex	0000
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          X      |   005   | 000
+          Y      |   006   | 001
+          Z      |   007   | 002
+         --------------------------------------------------
+
+
