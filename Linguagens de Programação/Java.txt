@@ -11,6 +11,14 @@ NetBeans:
 	para rodar --> F6
 	para alterar o tamanho da letra --> Alt+roda do mouse
 
+Scanner scanner = new Scanner(System.in);  
+//Para jogar em um inteiro
+int i = scanner.nextInt();
+//Para uma String  
+String s = scanner.nextLine();  
+//Para um double e assim por diante.
+double d = scanner.nextDouble();
+
 Objeto
 nome da classe
 --------------
