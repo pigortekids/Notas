@@ -1,0 +1,9 @@
+	ORG 	100
+	LOAD	 X		
+	ADD	 Y		
+	STORE 	 Z	
+	OUTPUT	 Z
+	HALT
+X,	DEC	128
+Y,	DEC	1
+Z,	HEX	0000

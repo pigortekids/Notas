@@ -1,0 +1,25 @@
+     Assembly listing for: Pagina11 Material 9.mas
+                Assembled: Thu Apr 27 10:43:47 BRT 2017
+
+         |                          // Exemplo de programa absoluto - Pagina 11 - Material ECM245 - 9
+         |                          
+000 5000 |         INPUT             
+001 2008 |         STORE 008         
+002 5000 |         INPUT             
+003 2009 |         STORE 009         
+004 1008 |         LOAD 008          
+005 3009 |         ADD 009           
+006 6000 |         OUTPUT            
+007 7000 |         HALT              
+008 0064 |         DEC 100           
+009 0064 |         DEC 100           
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+

@@ -1,0 +1,20 @@
+     Assembly listing for: exemploRotulos.mas
+                Assembled: Thu Apr 20 11:00:58 BRT 2017
+
+000 1??? |         LOAD X            
+   **** Operand undefined.
+001 3??? |         ADD Y             
+   **** Operand undefined.
+002 2??? |         STORE Z           
+   **** Operand undefined.
+003 7000 |         HALT              
+
+3 errors found.  Assembly unsuccessful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+

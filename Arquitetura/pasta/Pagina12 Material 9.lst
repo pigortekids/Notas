@@ -1,0 +1,27 @@
+     Assembly listing for: Pagina12 Material 9.mas
+                Assembled: Thu Apr 27 11:09:27 BRT 2017
+
+         |                          // Exemplo de programa realocável - Pagina 12 - Material ECM245 - 9
+         |                          
+000 5000 |         INPUT             
+001 2008 |         STORE x           
+002 5000 |         INPUT             
+003 2009 |         STORE y           
+004 1008 |         LOAD x            
+005 3009 |         ADD y             
+006 6000 |         OUTPUT            
+007 7000 |         HALT              
+008 0000 |  x      DEC 0             
+009 0000 |  y      DEC 0             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          x      |   008   | 001, 004
+          y      |   009   | 003, 005
+         --------------------------------------------------
+
+

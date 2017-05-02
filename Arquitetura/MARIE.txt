@@ -1,0 +1,6 @@
+abrir o MARIE Simulator
+file --> edit
+colocar um texto
+salvar em algum lugar
+assemblar
+rodar o arquivo .mex

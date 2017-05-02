@@ -11,6 +11,7 @@ NetBeans:
 	para rodar --> F6
 	para alterar o tamanho da letra --> Alt+roda do mouse
 
+<<<<<<< HEAD
 Scanner scanner = new Scanner(System.in);  
 //Para jogar em um inteiro
 int i = scanner.nextInt();
@@ -18,6 +19,17 @@ int i = scanner.nextInt();
 String s = scanner.nextLine();  
 //Para um double e assim por diante.
 double d = scanner.nextDouble();
+=======
+SCANF:
+import java.util.Scanner;
+	Scanner scanner = new Scanner(System.in);  
+	//Para jogar em um inteiro
+	int i = scanner.nextInt();
+        //Para uma String  
+        String s = scanner.nextLine(); armazena toda a linha, e o next(); armazena ate o " "
+        //Para um double e assim por diante.
+        double d = scanner.nextDouble();
+>>>>>>> e0dbe1a8fd53ec2e2924949bda4f1ea50432b792
 
 Objeto
 nome da classe
@@ -45,6 +57,9 @@ long --> Long
 float --> Float
 double --> Double
 char --> Character
+
+array--> declaração--> int[] array; array = new int[10]; chamada--> array[5];
+para fazer uma array de um objeto --> Conta[] array; array = new Conta[10]; array[0] = new Conta();
 
 switch case da para usar varios cases em 1 coisa só. exemplo:
 	case 1:
@@ -83,3 +98,6 @@ Herança:
 	o construtor da superclasse é sempre executado para as subclasses
 	se quiser adicionar um construtor nas subclasses, passar todos os parametros do conrutor
 		da superclasse, e usar a função "super" passando esses parametros
+
+Polimorfismo: pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
+	da super classe, usar "final"

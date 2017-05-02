@@ -1,0 +1,12 @@
+// Exemplo de programa absoluto - Pagina 11 - Material ECM245 - 9
+
+input
+store 8
+input
+store 9
+load 8
+add 9
+output
+halt
+dec 0
+dec 0
