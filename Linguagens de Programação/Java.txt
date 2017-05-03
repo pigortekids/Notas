@@ -26,7 +26,7 @@ import java.util.Scanner;
 	//Para jogar em um inteiro
 	int i = scanner.nextInt();
         //Para uma String  
-        String s = scanner.nextLine(); armazena toda a linha, e o next(); armazena ate o " "
+        String s = scanner.nextLine(); armazena toda a linha, e o next(); armazena ate o espaço
         //Para um double e assim por diante.
         double d = scanner.nextDouble();
 >>>>>>> e0dbe1a8fd53ec2e2924949bda4f1ea50432b792
@@ -99,5 +99,11 @@ Herança:
 	se quiser adicionar um construtor nas subclasses, passar todos os parametros do conrutor
 		da superclasse, e usar a função "super" passando esses parametros
 
-Polimorfismo: pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
+Polimorfismo: 
+	pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
 	da super classe, usar "final"
+
+classe abstrata: (public abstract class Classe)
+	é uma classe que não pode ser instanciada, só pode ser criada que ouver uma classe filha
+	para ela. é possivel fazer metodos abstratos, mas a classe filha te que criar esse metodo
+	para a propria classe filha não ser uma classe abstrata
