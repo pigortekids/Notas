@@ -1,0 +1,43 @@
+     Assembly listing for: exemplo.mas
+                Assembled: Thu May 04 10:16:24 BRT 2017
+
+         |         ORG 100           
+100 5000 |  ciclo  INPUT             
+101 210E |         STORE Num         
+102 410D |         SUBT Limite       
+103 8000 |         SKIPCOND 000      
+104 910C |         JUMP Fim          
+105 110E |         LOAD Num          
+106 3110 |         ADD Addr          
+107 210F |         STORE Next        
+108 A000 |         CLEAR             
+109 B10F |         ADDI Next         
+10A 6000 |         OUTPUT            
+10B 9100 |         JUMP ciclo        
+10C 7000 |  Fim    HALT              
+10D 0003 |  Limite DEC 3             
+10E 0000 |  Num    DEC 0             
+10F 0000 |  Next   HEX 0             
+110 0111 |  Addr   HEX 111           
+111 0064 |  a      DEC 100           
+112 00C8 |  b      DEC 200           
+113 012C |  c      DEC 300           
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Addr   |   110   | 106
+          Fim    |   10C   | 104
+          Limite |   10D   | 102
+          Next   |   10F   | 107, 109
+          Num    |   10E   | 101, 105
+          a      |   111   | 
+          b      |   112   | 
+          c      |   113   | 
+          ciclo  |   100   | 10B
+         --------------------------------------------------
+
+

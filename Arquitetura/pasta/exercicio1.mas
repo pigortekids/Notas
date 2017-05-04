@@ -1,0 +1,25 @@
+// Igor Amaral 15.00588-7
+// Rodrigo Franciozi 14.04014-0
+input
+store x
+input
+store y
+input
+store w
+input
+store z
+input
+store k
+load x
+add y
+add w
+add z
+add k
+output
+jump 0
+halt
+x, dec 0
+y, dec 0
+w, dec 0
+z, dec 0
+k, dec 0

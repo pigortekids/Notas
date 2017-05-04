@@ -1,0 +1,28 @@
+     Assembly listing for: jump.mas
+                Assembled: Thu May 04 10:04:59 BRT 2017
+
+000 100A |  a      LOAD x            
+001 5000 |         INPUT             
+002 200A |         STORE x           
+003 5000 |         INPUT             
+004 200B |         STORE y           
+005 100A |         LOAD x            
+006 300B |         ADD y             
+007 6000 |         OUTPUT            
+008 9000 |         JUMP a            
+009 7000 |         HALT              
+00A 0000 |  x      DEC 0             
+00B 0000 |  y      DEC 0             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          a      |   000   | 008
+          x      |   00A   | 000, 002, 005
+          y      |   00B   | 004, 006
+         --------------------------------------------------
+
+

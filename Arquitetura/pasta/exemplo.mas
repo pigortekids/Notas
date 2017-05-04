@@ -1,0 +1,21 @@
+Org 100
+ciclo, Input
+Store Num
+Subt Limite
+Skipcond 000
+Jump Fim
+Load Num
+Add Addr
+Store Next
+Clear
+AddI Next
+Output
+Jump ciclo
+Fim, Halt
+Limite, Dec 3
+Num, Dec 0
+Next, Hex 0
+Addr, Hex 111
+a, Dec 100
+b, Dec 200
+c, Dec 300

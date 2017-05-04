@@ -1,5 +1,3 @@
-// Exemplo de programa realocável - Pagina 12 - Material ECM245 - 9
-
 input
 store x
 input
@@ -7,6 +5,7 @@ store y
 load x
 add y
 output
+jump x
 halt
 x, dec 0
 y, dec 0
