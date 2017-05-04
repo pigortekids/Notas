@@ -1,0 +1,22 @@
+// Igor Amaral 15.00588-7
+// Rodrigo Franciozi 14.04014-0
+input
+store x
+input
+store y
+a, load y
+subt i
+store y
+skipcond 800 // se o y for maior que 0, pula a proxima linha e adiciona mais uma vez o x em z
+jump b // se o y for 0 pula pro output
+load z
+add x
+jump a // volta para "a" subtraindo 1 de y e fazendo o teste de novo
+b, load z
+output
+jump 0
+halt
+x, dec 0
+y, dec 0
+z, dec 0
+i, dec 1

@@ -1,0 +1,12 @@
+a, load	x
+input
+store	x
+input
+store	y
+load	x
+add	y
+output
+jump	a
+halt
+x, dec 0
+y, dec 0

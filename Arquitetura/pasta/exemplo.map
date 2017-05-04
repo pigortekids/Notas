@@ -1,0 +1,13 @@
+ -----------------
+ Symbol | Location
+ -------+---------
+ Addr   |   110
+ Fim    |   10C
+ Limite |   10D
+ Next   |   10F
+ Num    |   10E
+ a      |   111
+ b      |   112
+ c      |   113
+ ciclo  |   100
+

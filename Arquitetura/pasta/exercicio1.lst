@@ -1,0 +1,43 @@
+     Assembly listing for: exercicio1.mas
+                Assembled: Thu May 04 11:15:56 BRT 2017
+
+         |                          // Igor Amaral 15.00588-7
+         |                          // Rodrigo Franciozi 14.04014-0
+000 5000 |         INPUT             
+001 2012 |         STORE x           
+002 5000 |         INPUT             
+003 2013 |         STORE y           
+004 5000 |         INPUT             
+005 2014 |         STORE w           
+006 5000 |         INPUT             
+007 2015 |         STORE z           
+008 5000 |         INPUT             
+009 2016 |         STORE k           
+00A 1012 |         LOAD x            
+00B 3013 |         ADD y             
+00C 3014 |         ADD w             
+00D 3015 |         ADD z             
+00E 3016 |         ADD k             
+00F 6000 |         OUTPUT            
+010 9000 |         JUMP 000          
+011 7000 |         HALT              
+012 0000 |  x      DEC 0             
+013 0000 |  y      DEC 0             
+014 0000 |  w      DEC 0             
+015 0000 |  z      DEC 0             
+016 0000 |  k      DEC 0             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          k      |   016   | 009, 00E
+          w      |   014   | 005, 00C
+          x      |   012   | 001, 00A
+          y      |   013   | 003, 00B
+          z      |   015   | 007, 00D
+         --------------------------------------------------
+
+
