@@ -1,0 +1,16 @@
+mquinas de estados finitos:
+	tem entrada, saida e estados
+	é feito de cadeias de 2 pares, o primeiro contendo o estado e a entrada,
+	e o segundo o estado e a saida que foi produzido pela entrada
+	JFLAP:
+		http://www.jflap.org/jflaptmp/may15-2011/withoutSource/JFLAP.jar
+		usar o Mealy Machine
+
+autômatos de estados finitos:
+	tem entrada e a saida é um estado
+	deterministico: para um valor de entrada há um único proximo estado
+	nao deterministico: pode haver mais de um estado com uma única entrada
+	uma cadeia é reconhecida se leva de um estado inicial ate um estado final
+	* = uniao de possiveis concatenações de simbolos de somatoria logo entendesse:
+		SxI* seria todas os estados de S com todas as saidas possiveis em I
+	
