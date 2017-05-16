@@ -13,4 +13,13 @@ autômatos de estados finitos:
 	uma cadeia é reconhecida se leva de um estado inicial ate um estado final
 	* = uniao de possiveis concatenações de simbolos de somatoria logo entendesse:
 		SxI* seria todas os estados de S com todas as saidas possiveis em I
-	
+
+Teorema de Kleene:
+	definição de expressões regulares sobre um conjunto qualquer, usando união, concatenação
+	e fechamento, é possivel criar todas as expressões
+	sendo D = 0 U 1 U 2 U ... U 9, uma expressão N = D.DD* pode ser expresso por: 0.0, 4.2,
+	1.209387616, etc...
+
+Pilha:
+	LIFO(last in first out), anotações feitas em (estado, comandos que ainda faltam, pilha),
+	onde as transições dependem dos comandos, e do topo da pilha.
