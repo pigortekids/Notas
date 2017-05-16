@@ -1,0 +1,89 @@
+Igor Amaral 15.00588-7
+Rodrigo Franciozi 14.04014-0
+
+assoc --> mostra ou muda associações das extensões de arquivo
+attrib --> mostra ou muda os atributos de um arquivo
+break --> serve para nada
+bdcedit --> modifica configurações de inicialização
+cacls --> serve para nada
+call --> chama programas em lotes
+cd --> mostra ou muda o repositorio em que se está dando os comandos
+chcp --> mostra a quantidade de paginas de codigo ativas no sistema
+chdir --> mostra o diretorio atual, o nome dele
+chkdsk --> verifica um disco e exibe um relatorio de status
+chkntfs --> modifica o disco de inicialização
+cls --> limpa a tela do prompt
+cmd --> mostra a versão do windos
+color --> muda a cor do fundo e das letras do prompt
+comp --> compara dois arquivos
+compact --> compacta os arquivos especificados apenas na hora digitada
+convert --> converte arquivos de fat em ntfs
+copy --> copia arquivos de um lugar para outro
+date --> mostra e muda data
+del --> deleta um ou mais arquivos
+dir --> mostra todos os arquivos e pastas
+diskcomp --> compara o arquivo de 2 disquete
+diskcopy --> copia o conteudo de um diquete para outro
+diskpart --> mostra ou muda propriedades de partição de disco
+doskey --> edita e recupera comandos digitados
+driverquery --> mostra o status e a propriedade do driver
+echo --> rproduz oque foi digitado
+endlocal --> encerra a localização de alterações de ambiente de um arquivo
+erase --> exclui um ou mais arquivos
+exit --> sai de um programa
+fc --> mostra a diferença entre arquivos
+find --> acha caracteres tipo texto em arquivos .txt
+findstr --> acha cadeia de caracteres tipo texto em arquivos .txt
+for --> executa um certo comando para mais de um arquivo
+format --> formata um disco
+fsutil --> requer privilegio administrativo
+ftype --> altera o tipo de arquivo dependendo da sua extensão
+goto --> direciona para uma linha especifica de um programa
+gpresult --> exibe informações de um conjunto de instruções de um grupo para o computador
+graftabl --> serve para nada
+help --> exibe informações de todos os comandos, ou de comandos especificos
+icacls --> armazena arquivos e diretorios em um arquivo _acl
+if --> comando condicional para outros comandos
+label --> cria, muda ou deleta o nome de um volume de disco
+md --> cria um diretorio(pasta)
+mkdir --> cria um diretorio(pasta)
+mklink --> cria um link 
+mode --> configura dispositivos do sistema
+more --> especifica um arquivo para ser mostrado na tela um de cada vez
+move --> move um ou mais arquivos
+openfiles --> permite que liste ou desconecte arquivos ou diretorios que foram abertos no sistema
+path --> caminho de pesquisa
+pause --> pausa um processamento de um programa
+popd --> altera para a pasta armazenada pelo comando pushd
+print --> imprime um arquivo de texto
+prompt --> altera o prompt de comandos
+pushd --> armazena a pasta atual para usar o comando popd, depois altera para uma pasta especificada
+rd --> exclui uma pasta
+recover --> recupera as informações legiveis de um disco danificado ou defeituoso
+rem --> registra comentarios em um arquivo
+ren --> renomeia um ou mais arquivos
+rename --> renomeia um ou mais arquivos
+replace --> substitui arquivos em pastas
+rmdir --> exclui uma pasta
+robocopy --> comando avançado para copiar ou remover arquivos
+set --> exibe ou remove variaveis de ambiente
+setlocal --> inicia a localização de alterações de um arquivo
+sc --> serve para nada(programa que nao é reconhecido como codigo)
+schtasks --> cria, exclua, mude, etc... tarefas no windows
+shift --> altera parametros de um arquivo
+shutdown --> desliga o computador
+sort --> verifica o arquivo de entrada
+start --> inicia uma janela separada para executar um programa
+subst --> associa um caminho a uma letra de unidade
+systeminfo --> exibe especificações de hardware da maquina
+tasklist --> exibe uma lista de aplicativos em execução
+taskkill --> finaliza uma tarefa
+time --> exibe ou muda a hora do sistema
+title --> define o titulo da janela do prompt
+tree --> exibe uma arvore de pastas e arquivos do diretorio
+type --> exibe o conteudo de um arquivo de texto
+ver --> mosra a versão do windos
+verify --> confere se um arquivo esta gravado corretamente
+vol --> exibe o nome e o numero de serie do disco se existirem
+xcopy --> copia arquivos e arvores de diretorios
+wmic --> serve para nada

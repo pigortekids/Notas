@@ -6,6 +6,7 @@ eclipse	------> Prolog Console / perspectiva Prolog
 constantes em minusculo
 variavel em maisculo
 "e" --> ","
+"ou" --> ";"
 se a então b --> ":-"
 diferente --> "\="
 

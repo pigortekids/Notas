@@ -81,7 +81,7 @@ protected --> apenas a propria classe e as classes de herança podem usar
 para alterar classe "setAtributo"
 para pegar o valor  "getAtributo"
 
-construtor:
+Construtor:
 	logo que a classe Ã© formada vai ser rodado o mÃ©todo do contrutor que tem o proprio nome
 	da classe e estÃ¡ dentro dela. Normalmente Ã© para setar os valores da sua classe. Declarar
 	uma outra classe como atributo, criar o "new" dela dentro do contrutor.
@@ -101,9 +101,19 @@ Herança:
 
 Polimorfismo: 
 	pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
-	da super classe, usar "final"
+	ou um atributo da super classe, usar "final". (@Overload(na propria classe com assinatura
+	diferente), @Override(em outra classe com mesmas assinaturas))
 
 classe abstrata: (public abstract class Classe)
-	é uma classe que não pode ser instanciada, só pode ser criada que ouver uma classe filha
-	para ela. é possivel fazer metodos abstratos, mas a classe filha te que criar esse metodo
-	para a propria classe filha não ser uma classe abstrata
+	é uma classe que não pode ser instanciada(new ClaseAbstrata), só pode ser criada se ouver 
+	uma classe filha para ela. é possivel fazer metodos abstratos, mas a classe filha tem que 
+	criar esse metodo para a propria classe filha não ser uma classe abstrata, mas apenas se o
+	metodo criado for abstrato.
+
+Interface:
+	usar a palavra "interface", exepmlo: "public interface Interface", para implementar uma
+	interface "public class Classe implements Interface. Todos os metodos na interface tem de
+	ser public e abstract(se você não especificar nada, ele ja é public e abstract). Uma classe
+	pode ter diversas interfaces e só uma herança "public implements Interface1, Interface2".
+	da para chamar um objeto que tem uma interface como parametro de um metodo:
+	public boolean metodo( IInterface objeto ){}

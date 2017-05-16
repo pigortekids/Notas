@@ -1,0 +1,16 @@
+windows + r ou pesquisar no menu inicial e digitar "cmd" + enter
+***nao é case sensitive***
+echo AAA --> digita o AAA 
+dir --> mostra todos os diretorios e arquivos na pasta onde vc está
+help --> mostra os comandos
+cls --> limpa a tela
+md Nome --> cria um diretorio com o nome colocado
+cd .. --> volta 1 diretorio
+cd\ --> volta ao diretorio "raiz"
+cd Nome --> abre a pasta pedida
+color 00 --> primeiro digito é a cor do fundo e o segundo a cor das letras (digitos em hexadecimal)
+		se um digito só, muda apenas a letra, e se digitar só coloar, ele volta ao original
+path --> mostra o caminho para as variaveis de ambiente
+prompt Nome --> muda o negocio que vem antes da digitação e se só digitar "prompt" volta ao normal
+copy con nome.bat --< digita as coisa e finaliza em ctrl + z dgite o nome para rodar o arquivo criado
+attrib --> exibe ou altera atributos de arquivos
