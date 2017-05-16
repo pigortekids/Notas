@@ -91,7 +91,8 @@ Herança:
 
 Polimorfismo: 
 	pode sobrescrever metodos, e se nao quiser que uma subclasse sobrescreva um metodo
-	da super classe, usar "final". (@Overload, @Override)
+	ou um atributo da super classe, usar "final". (@Overload(na propria classe com assinatura
+	diferente), @Override(em outra classe com mesmas assinaturas))
 
 classe abstrata: (public abstract class Classe)
 	é uma classe que não pode ser instanciada(new ClaseAbstrata), só pode ser criada se ouver 
@@ -103,5 +104,6 @@ Interface:
 	usar a palavra "interface", exepmlo: "public interface Interface", para implementar uma
 	interface "public class Classe implements Interface. Todos os metodos na interface tem de
 	ser public e abstract(se você não especificar nada, ele ja é public e abstract). Uma classe
-	pode ter diversas interfaces e só uma herança "public interface Interface1, Interface2".
-	
+	pode ter diversas interfaces e só uma herança "public implements Interface1, Interface2".
+	da para chamar um objeto que tem uma interface como parametro de um metodo:
+	public boolean metodo( IInterface objeto ){}
