@@ -11,16 +11,6 @@ NetBeans:
 	para rodar --> F6
 	para alterar o tamanho da letra --> Alt+roda do mouse
 
-<<<<<<< HEAD
-Scanner scanner = new Scanner(System.in);  
-//Para jogar em um inteiro
-int i = scanner.nextInt();
-//Para uma String  
-String s = scanner.nextLine();  
-//Para um double e assim por diante.
-double d = scanner.nextDouble();
-=======
-SCANF:
 import java.util.Scanner;
 	Scanner scanner = new Scanner(System.in);  
 	//Para jogar em um inteiro
@@ -29,7 +19,6 @@ import java.util.Scanner;
         String s = scanner.nextLine(); armazena toda a linha, e o next(); armazena ate o espaço
         //Para um double e assim por diante.
         double d = scanner.nextDouble();
->>>>>>> e0dbe1a8fd53ec2e2924949bda4f1ea50432b792
 
 Objeto
 nome da classe
