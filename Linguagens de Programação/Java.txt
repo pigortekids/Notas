@@ -107,3 +107,6 @@ Interface:
 	pode ter diversas interfaces e só uma herança "public implements Interface1, Interface2".
 	da para chamar um objeto que tem uma interface como parametro de um metodo:
 	public boolean metodo( IInterface objeto ){}
+
+Interface Gráfica:
+	biblioteca no JavaFX

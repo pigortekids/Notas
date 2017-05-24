@@ -36,6 +36,8 @@ public class Dinheiro {
                 return this.dolarParaReal(euroParaDolar(this.valor));
             case "real":
                 return this.valor;
+            default:
+                return 0;
         }
         
     }
@@ -49,6 +51,8 @@ public class Dinheiro {
                 return this.euroParaDolar(this.valor);
             case "dolar":
                 return this.valor;
+            default:
+                return 0;
         }
         
     }
@@ -62,6 +66,8 @@ public class Dinheiro {
                 return this.dolarParaEuro(realParaDolar(this.valor));
             case "euro":
                 return this.valor;
+            default:
+                return 0;
         }
         
     }
