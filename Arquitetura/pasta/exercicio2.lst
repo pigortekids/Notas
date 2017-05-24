@@ -1,28 +1,30 @@
      Assembly listing for: exercicio2.mas
-                Assembled: Thu May 04 11:16:05 BRT 2017
+                Assembled: Thu May 04 17:00:11 BRT 2017
 
          |                          // Igor Amaral 15.00588-7
          |                          // Rodrigo Franciozi 14.04014-0
 000 5000 |         INPUT             
-001 2010 |         STORE x           
+001 2012 |         STORE x           
 002 5000 |         INPUT             
-003 2011 |         STORE y           
-004 1011 |  a      LOAD y            
-005 4013 |         SUBT i            
-006 2011 |         STORE y           
-007 8800 |         SKIPCOND 800     // se o y for maior que 0, pula a proxima linha e adiciona mais uma vez o x em z
-008 900C |         JUMP b           // se o y for 0 pula pro output
-009 1012 |         LOAD z            
-00A 3010 |         ADD x             
-00B 9004 |         JUMP a           // volta para "a" subtraindo 1 de y e fazendo o teste de novo
-00C 1012 |  b      LOAD z            
-00D 6000 |         OUTPUT            
-00E 9000 |         JUMP 000          
-00F 7000 |         HALT              
-010 0000 |  x      DEC 0             
-011 0000 |  y      DEC 0             
-012 0000 |  z      DEC 0             
-013 0001 |  i      DEC 1             
+003 2013 |         STORE y           
+004 1013 |  a      LOAD y            
+005 8800 |         SKIPCOND 800      
+006 900E |         JUMP f            
+007 1013 |         LOAD y            
+008 4015 |         SUBT i            
+009 2013 |         STORE y           
+00A 1014 |         LOAD z            
+00B 3012 |         ADD x             
+00C 2014 |         STORE z           
+00D 9004 |         JUMP a            
+00E 1014 |  f      LOAD z            
+00F 6000 |         OUTPUT            
+010 9000 |         JUMP 000          
+011 7000 |         HALT              
+012 0000 |  x      DEC 0             
+013 0000 |  y      DEC 0             
+014 0000 |  z      DEC 0             
+015 0001 |  i      DEC 1             
 
 Assembly successful.
 
@@ -30,12 +32,12 @@ Assembly successful.
          --------------------------------------------------
           Symbol | Defined | References 
          --------+---------+-------------------------------
-          a      |   004   | 00B
-          b      |   00C   | 008
-          i      |   013   | 005
-          x      |   010   | 001, 00A
-          y      |   011   | 003, 004, 006
-          z      |   012   | 009, 00C
+          a      |   004   | 00D
+          f      |   00E   | 006
+          i      |   015   | 008
+          x      |   012   | 001, 00B
+          y      |   013   | 003, 004, 007, 009
+          z      |   014   | 00A, 00C, 00E
          --------------------------------------------------
 
 

@@ -1,4 +1,4 @@
-mquinas de estados finitos:
+maquinas de estados finitos:
 	tem entrada, saida e estados
 	é feito de cadeias de 2 pares, o primeiro contendo o estado e a entrada,
 	e o segundo o estado e a saida que foi produzido pela entrada
@@ -20,6 +20,14 @@ Teorema de Kleene:
 	sendo D = 0 U 1 U 2 U ... U 9, uma expressão N = D.DD* pode ser expresso por: 0.0, 4.2,
 	1.209387616, etc...
 
+lambda = nada :
+comando lambda = nao precisa gastar um comando para usar
+lambda/alguma coisa = coloca na pilha
+alguma coisa/lambda = tira da pilha
+lambda/lambda = nao tira nem coloca da pilha
+
 Pilha:
 	LIFO(last in first out), anotações feitas em (estado, comandos que ainda faltam, pilha),
-	onde as transições dependem dos comandos, e do topo da pilha.
+	onde as transições dependem dos comandos, e do topo da pilha, sendo dados por:
+	(comando, tira da pilha/coloca na pilha). Para se resolver o programa tem que tirar todos
+	os comandos e todos os termos da pilha
