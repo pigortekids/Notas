@@ -13,6 +13,7 @@ public class Eletronico extends Produto{
         this.dimensaoL = dL;
     }
     
+    
     @Override
     public void calcularVolume(){
         this.volume = this.dimensaoE * this.dimensaoC * this.dimensaoL;

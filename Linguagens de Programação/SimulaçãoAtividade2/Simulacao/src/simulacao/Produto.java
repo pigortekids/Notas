@@ -9,6 +9,14 @@ public abstract class Produto implements IVolume{
         this.valor = v;
     }
     
+    public double getValor(){
+        return this.valor;
+    }
+    
+    public double getVolume(){
+        return this.volume;
+    }
+    
     @Override
     public abstract void calcularVolume();
     

@@ -10,19 +10,19 @@ public class Quadrado extends Pallet{
         calcularVolume();
     }
     
+    
     @Override
     public void calcularVolume(){
         this.volume = this.dimensaoA * this.dimensaoC * this.dimensaoL;
     }
     
-    public boolean cabe(double volumeProduto, int quantProduto){
+    public double getComprimento(){
+        return this.dimensaoC;
+    }
+    
+    public int quantCabe(double volumeProduto){
         
-        boolean cabe = true;
-        
-        if(this.volume < (volumeProduto * quantProduto)){
-            cabe = false;
-        }
-        return cabe;   
+        return (int)(this.volume / volumeProduto);   
     }
     
 }

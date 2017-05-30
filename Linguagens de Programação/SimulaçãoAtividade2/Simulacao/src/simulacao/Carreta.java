@@ -1,9 +1,8 @@
 package simulacao;
 
-public class Carreta implements IVolume{
+public class Carreta{
     
     private boolean seguro;
-    private double volume;
     private double largura;
     private double comprimento;
     private static double altura = 250;
@@ -14,22 +13,32 @@ public class Carreta implements IVolume{
         this.comprimento = comp*100;
     }
     
-    @Override
-    public void calcularVolume(){
-        this.volume = this.comprimento * this.largura * Carreta.altura;
+    public double getLargura(){
+        return this.largura;
     }
     
     public boolean temSeguro(){
         return this.seguro;
     }
     
-    public boolean cabe(double volumePallet, int quantPallet){
+    public int quantosCabe(){
         
-        boolean cabe = true;
+        Retangulo pR = new Retangulo();
+        Quadrado pQ = new Quadrado();
+        int quantL = (int)(this.largura / 10);
+        int quantC = (int)(this.comprimento / 10);
+        int p = -1;
         
-        if(this.volume < (volumePallet * quantPallet)){
-            cabe = false;
+        for(int i=0 ; i<quantL ; i++){
+            if( ((pQ.getComprimento() * i) + (pR.getComprimento() * (quantL-i))) % this.largura == 0 ){
+                p = i;
+            }
         }
-        return cabe;   
+        if(p != -1){
+            return p * quantC;
+        }
+        else{
+            return 0;
+        }
     }
 }

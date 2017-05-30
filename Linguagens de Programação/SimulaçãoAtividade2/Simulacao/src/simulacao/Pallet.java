@@ -7,4 +7,5 @@ public abstract class Pallet implements IVolume{
     @Override
     public abstract void calcularVolume();
     
+    
 }
