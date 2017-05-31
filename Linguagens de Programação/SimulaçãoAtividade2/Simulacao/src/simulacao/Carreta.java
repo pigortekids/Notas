@@ -25,12 +25,12 @@ public class Carreta{
         
         Retangulo pR = new Retangulo();
         Quadrado pQ = new Quadrado();
-        int quantL = (int)(this.largura / 10);
-        int quantC = (int)(this.comprimento / 10);
+        int quantL = (int)(this.largura / pQ.dimensaoC);
+        int quantC = (int)(this.comprimento / pQ.dimensaoL);
         int p = -1;
         
         for(int i=0 ; i<quantL ; i++){
-            if( ((pQ.getComprimento() * i) + (pR.getComprimento() * (quantL-i))) % this.largura == 0 ){
+            if( ((pQ.getComprimento() * i) + (pR.getComprimento() * (quantL-i-2))) % this.largura == 0 ){
                 p = i;
             }
         }
