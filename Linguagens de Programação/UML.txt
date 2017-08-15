@@ -1,0 +1,20 @@
+visibilidade em UML:
+	- private
+	# protected
+	+ public
+	(em branco) default(pacote)
+exemplo:
+	-nome: String   -->   atributo
+	+ matricula(a: Aluno, d: Turma): void   -->   metodo
+Associação entre classes:
+	tem que colocar 1 pra 1 ou 1 pra n etc... sendo o n representado por *
+	no meio das ligações pode ter por exemplo: Cliente --registra--> Pedido
+	associação basica --> uma classe está conectada com a outra de alguma forma (linha continua)
+	classe assosiativa --> está ligada a uma associação, e não a uma classe (linha tracejada)
+	agregação --> é uma associação de uma parte pelo todo (empresa(todo), departamento(parte)
+		(losango na ponta da classe agregadora)
+	composição --> pertence excluisavamente a (losango preto na ponta da classe mais importante)
+	especialização/generalização --> herança (seta cotninua não preenchida na classe mãe)
+	interface --> interface (seta trasejada)
+
+coisas abstratas em italico (letras caidas)
