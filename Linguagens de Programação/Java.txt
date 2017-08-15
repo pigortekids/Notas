@@ -108,4 +108,8 @@ Interface:
 	public boolean metodo( IInterface objeto ){}
 
 Interface Gráfica:
-	biblioteca no JavaFX
+	Swing --> NetBeans --> criar JPainel no projeto
+	http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html#javafx-scenebuilder-2.0-oth-JPR
+		(JavaFX Scene Builder 2.0 ... Windows 32/64 bit(msi)),
+		NetBeans --> ferramentas --> opções --> Java --> JavaFX --> ativar
+		Novo projeto --> JavaFX --> aplicação FXML...
