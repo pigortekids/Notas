@@ -1,0 +1,3 @@
+https://www.tutorialspoint.com/codingground.htm
+http://blog.thiagobelem.net/relacionamento-de-tabelas-no-mysql
+https://www.tutorialspoint.com/sql/index.htm
