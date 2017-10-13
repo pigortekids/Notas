@@ -1,3 +1,19 @@
 MySQL Workbench
+Wampserver64
+
 create new schema
 create new table
+
+data export
+export to self-contained file
+include create schema
+
+data import
+import from self-contained file
+dar refresh
+
+para referenciar sem precisar escrever tudo, setar como default schema
+
+view:
+CREATE VIEW 'nome_da_view' AS ... tudo que vc queira selecionar
+e para chamar SELECT * FROM nome_da_view;
