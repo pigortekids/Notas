@@ -1,0 +1,23 @@
+Oracle VM VirtualBox
+Ubuntu (versão mais "amigável" do linux)
+ctrl+alt+T ou buscar por "Terminal" para abrir o console
+se tiver $ --> usuário/guest, se tiver # --> superusuário/root(administrador)
+
+su      --> para logar, exemplo:
+		su teste
+		su           (para tentar logar o root)
+		sudo         (para ir direto ao root)
+logout  --> para logout
+clear   --> "limpa" o terminal
+man     --> manual dos comandos (man shutdown, man cd)
+info    --> mesma coisa que o man
+whatis  --> manual simplificado
+q       --> para sair de paginas de visualização
+cd      --> muda o diretório, exemplo:
+		cd /home/aluno/pasta
+		cd / --> volta para o diretório raiz
+		cd .. --> volta um nível
+ls      --> exibe os diretórios e arquivos na pasta em que está (ls -l, para melhor vizualizar)
+mkdir   --> cria diretorio
+rmdir   --> deleta um diretório vazio
+history --> mostra o historico de comandos
