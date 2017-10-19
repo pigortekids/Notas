@@ -1,3 +1,4 @@
+StarUML
 visibilidade em UML:
 	- private
 	# protected
