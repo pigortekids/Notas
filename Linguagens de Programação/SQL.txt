@@ -17,3 +17,9 @@ para referenciar sem precisar escrever tudo, setar como default schema
 view:
 CREATE VIEW 'nome_da_view' AS ... tudo que vc queira selecionar
 e para chamar SELECT * FROM nome_da_view;
+
+SELECT u.nome, u.cpf, p.nome FROM eluja.tblusuarios AS u
+
+JOIN eluja.tblprodutos AS p
+
+WHERE p.idProduto = '1';
