@@ -1,6 +1,8 @@
 MySQL Workbench
 Wampserver64
 
+LEMBRAR DE IMPORTAR A BIBLIOTECA DO JDBC PARA MYSQL
+
 create new schema
 create new table
 
