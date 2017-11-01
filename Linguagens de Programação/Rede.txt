@@ -1,2 +1,8 @@
 Wireshark
 
+TCP --> confirma e volta, e confirma...
+UDP --> perde alguns pixels
+
+putty --> Telnet --> ip e porta
+127.0.0.1
+cmd --> ipconfig --> ipv4 da rede local
